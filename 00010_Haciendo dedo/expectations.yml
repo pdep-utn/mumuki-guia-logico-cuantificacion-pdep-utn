@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: loLleva
+  inspection: UsesNot
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: loLleva
+  inspection: HasUsage:tieneAuto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: loLleva
+  inspection: HasUsage:sonVecinos
